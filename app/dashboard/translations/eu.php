@@ -1,0 +1,57 @@
+<?php
+
+return [
+    'home' => 'Hasiera',
+    'clothes' => 'Arropa',
+    'shoes' => 'Zapatak',
+    'tech' => 'Teknologia',
+    'sport' => 'Kirolak',
+    'sell' => 'Saldu',
+    'login' => 'Hasi saioa / Erregistratu',
+    'logout' => 'Amaitu saioa',
+    'settings' => 'Ezarpenak',
+    'staff' => 'Langileak',
+    'manage_products' => 'Produktuak Kudeatu',
+    'name' => 'Izena',
+    'price' => 'Prezioa',
+    'action' => 'Ekintza',
+    'delete' => 'Ezabatu',
+    'no_products' => 'Ez da produkturik aurkitu.',
+    'username' => 'Erabiltzaile izena',
+    'email' => 'Posta elektronikoa',
+    'address' => 'Helbidea',
+    'new_password' => 'Pasahitz berria',
+    'save_changes' => 'Aldaketak gorde',
+    'update_username' => 'Eguneratu zure erabiltzaile izena',
+    'update_email' => 'Eguneratu zure posta elektronikoa',
+    'update_address' => 'Eguneratu zure helbidea',
+    'update_password' => 'Eguneratu zure pasahitza (utzi hutsik aldaketarik ez badago)',
+    'market_title' => 'Eibarko bigarren eskuko merkatua',
+    'footer_text' => '&copy; {year} FOMA. Eskubide guztiak erreserbatuta.',
+    'discover_treasures' => 'Aurkitu Ezkutuko Altxorrak!',
+    'explore_unique' => 'Arakatu arropa berezia, objektu harrigarriak eta jolas dibertigarriak. Egin klik kategoria batean bidaia hasteko.',
+    'buy_now' => 'Erosi Orain',
+    'no_products_category' => 'Ez da produkturik aurkitu kategoria honetan.',
+
+    // For main categories
+    'clothes' => 'Arropa',
+    'objects' => 'Objektuak',
+    'games' => 'Jokoak',
+
+    // For UI text
+    'discover_treasures' => 'Ezkutuko Altxorrak Aurkitu!',
+    'explore_unique' => 'Arakatu arropa berezia, objektu harrigarriak eta joko dibertigarriak. Hasi zure bidaia kategoria bat aukeratuz.',
+    'buy_now' => 'Erosi orain',
+    'no_products_category' => 'Ez da produkturik aurkitu kategoria honetan.',
+
+    // Subcategory names
+    'footwear' => 'Oinetakoak',
+    'bottoms' => 'Praka motak',
+    'tops' => 'Gainekoak',
+    'home-decor' => 'Etxeko dekorazioa',
+    'elektrical-devices' => 'Gailu elektrikoak',
+    'kitchen' => 'Sukaldea',
+    'card-games' => 'Karta jokoak',
+    'video-games' => 'Bideojokoak',
+    'board-games' => 'Mahai-jokoak',
+];

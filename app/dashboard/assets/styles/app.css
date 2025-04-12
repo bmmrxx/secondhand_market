@@ -1,0 +1,19 @@
+/* If you want to add your CSS file; @import url('file_name.css'); */
+@import url(header.css);
+@import url(index-detail-pages.css);
+
+/* CSS for every page (global) */
+body {
+  background-color: #E8D7B9;
+  color: rgb(39, 31, 48);
+}
+
+/* <li class="nav-item">
+<?php
+if (isset($_SESSION['user'])) {
+  echo '<a class="nav-link" href="#" class="text-white mx-2">Logout</a>';
+} else {
+  echo '<a class="nav-link" href="#" class="text-white mx-2">Log-in</a>';
+}
+?>
+</li> */
