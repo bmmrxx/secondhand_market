@@ -18,12 +18,11 @@
     }
 
     footer {
-        background-color: #66735A;
+        background-color: #A9BCD0;
         color: white;
         padding: 20px 0;
         text-align: center;
         margin-top: auto;
-        /* Dit zorgt dat de footer onderaan blijft */
     }
 </style>
 </head>

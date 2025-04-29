@@ -5,10 +5,10 @@ USE secondhand_market;
 DROP TRIGGER IF EXISTS after_sale_insert;
 DROP TABLE IF EXISTS user_product;
 DROP TABLE IF EXISTS product;
-DROP TABLE IF EXISTS users;
+DROP TABLE IF EXISTS user;
 
 -- Create the user table
-CREATE TABLE users (
+CREATE TABLE user (
     id INT AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(255),
     firstname VARCHAR(255),
@@ -56,7 +56,7 @@ END;
 DELIMITER ;
 
 -- Insert generic users
-INSERT INTO users (username, firstname, lastname, email, password, role)
+INSERT INTO user (username, firstname, lastname, email, password, role)
 VALUES
 ('testuser', 'Test', 'User', 'test@example.com', 'testpassword', 'member'),
 ('admin', 'Admin', 'User', 'admin@example.com', 'testpassword', 'admin');

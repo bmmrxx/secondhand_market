@@ -44,7 +44,7 @@ require_once 'header.php';
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mx-auto nav-fill w-100">
             <li class="nav-item">
-                <a class="nav-link" href="about-us.php"><?= $translations['about_us'] ?? 'About Us' ?></a>
+                <a class=" nav-link" href="about-us.php"><?= $translations['about_us'] ?? 'About Us' ?></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="index.php"><?= $translations['home'] ?? 'Home' ?></a>
@@ -57,7 +57,7 @@ require_once 'header.php';
 
             <?php if (isset($_SESSION['user'])): ?>
                 <li class="nav-item dropdown">
-                    <button class="btn btn-outline-dark dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                    <button class="btn btn-outline-light dropdown-toggle" type="button" data-bs-toggle="dropdown">
                         <i class="fas fa-user"></i>
                     </button>
                     <ul class="dropdown-menu dropdown-menu-end">

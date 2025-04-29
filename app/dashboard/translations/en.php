@@ -34,6 +34,7 @@ return [
             'explore_unique' => 'Explore unique clothing, amazing objects, and fun games. Click a category to start your journey.',
             'buy_now' => 'Buy Now',
             'no_products_category' => 'No products found in this category.',
+
             // For main categories
             'clothes' => 'Clothes', // English example
             'objects' => 'Objects',

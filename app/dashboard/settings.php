@@ -73,7 +73,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             // Prepare the update query
             if ($update_password) {
                 $password_hash = password_hash($password, PASSWORD_DEFAULT);
-                $sql = "UPDATE users SET 
+                $sql = "UPDATE user SET 
                         username = :username, 
                         email = :email, 
                         firstname = :firstname, 
@@ -81,7 +81,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         password = :password 
                         WHERE id = :user_id";
             } else {
-                $sql = "UPDATE users SET 
+                $sql = "UPDATE user SET 
                         username = :username, 
                         email = :email, 
                         firstname = :firstname, 

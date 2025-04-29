@@ -12,7 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 	// Direct database query without separate class
 	$conn = (new Connection())->getConnection();
-	$stmt = $conn->prepare("SELECT * FROM users WHERE username = ?");
+	$stmt = $conn->prepare("SELECT * FROM user WHERE username = ?");
 	$stmt->execute([$username]);
 	$user = $stmt->fetch(PDO::FETCH_ASSOC);
 

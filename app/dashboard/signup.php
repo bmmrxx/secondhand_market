@@ -25,7 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 	} else {
 		try {
 			// Check if username or email already exists
-			$stmt = $conn->prepare("SELECT id FROM users WHERE username = ? OR email = ?");
+			$stmt = $conn->prepare("SELECT id FROM user WHERE username = ? OR email = ?");
 			$stmt->execute([$username, $email]);
 
 			if ($stmt->rowCount() > 0) {
@@ -35,7 +35,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 				$hashed_password = password_hash($password, PASSWORD_DEFAULT);
 
 				// Insert new user
-				$insert_stmt = $conn->prepare("INSERT INTO users (username, email, password) VALUES (?, ?, ?)");
+				$insert_stmt = $conn->prepare("INSERT INTO user (username, email, password) VALUES (?, ?, ?)");
 				$insert_stmt->execute([$username, $email, $hashed_password]);
 
 				if ($insert_stmt->rowCount() > 0) {

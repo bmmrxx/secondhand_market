@@ -26,15 +26,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             // Insert product data into database
             $conn = (new Connection())->getConnection();
             $stmt = $conn->prepare("            
-			INSERT INTO products (name, description, price, pictures, users_id, status) 
-			VALUES (:name, :description, :price, :pictures, :users_id, 'active')
+			INSERT INTO products (name, description, price, pictures, user_id, status) 
+			VALUES (:name, :description, :price, :pictures, :user_id, 'active')
 		");
             $stmt->execute([
                 ':name' => $name,
                 ':description' => $description,
                 ':price' => $price,
                 ':pictures' => $pictures,
-                ':users_id' => $_SESSION['users']['id']
+                ':user_id' => $_SESSION['user']['id']
             ]);
 
             // Haal de laats toegevoegde product id op

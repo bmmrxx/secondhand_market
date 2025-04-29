@@ -8,7 +8,7 @@ DROP TABLE IF EXISTS product;
 DROP TABLE IF EXISTS user;
 
 -- Create user table
-CREATE TABLE users (
+CREATE TABLE user (
     id INT AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(255),
     firstname VARCHAR(255),

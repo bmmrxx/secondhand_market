@@ -9,9 +9,9 @@ class Connection
         try {
             // Establish the PDO connection
             $this->dbh = new PDO(
-                'mysql:host=localhost;port=3306;dbname=challenge_3_database',
+                'mysql:host=localhost;port=3306;dbname=secondhand_market',
                 'root',
-                '123'
+                '1477'
             );
             // Set the PDO error mode to exception
             $this->dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
