@@ -37,10 +37,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 ':users_id' => $_SESSION['users']['id']
             ]);
 
-            // Haal de laats toegevoegde product id op
+            // Get the last product ID
             $lastInsertId = $conn->lastInsertId();
 
-            // // Kijken of de file gezet is
+            // Make sure the file is set
             if (isset($_FILES['pictures']) && $__FILES['pictures']['error'] == UPLOAD_ERR_OK) {
                 require_once('image-upload.php');
                 $fileName = new FileUpload($conn, 'product-images', ['jpg', 'jpeg', 'png'], 'product', 'pictures', 'ID');

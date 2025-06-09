@@ -33,11 +33,12 @@ return [
     'buy_now' => 'Comprar Ahora',
     'no_products_category' => 'No se encontraron productos en esta categoría.',
 
+    // For main categories
     'clothes' => 'Ropa',
     'objects' => 'Objetos',
     'games' => 'Juegos',
 
-    // For UI text
+    // For secondary text
     'discover_treasures' => '¡Descubre Tesoros Ocultos!',
     'explore_unique' => 'Explora ropa única, objetos increíbles y juegos divertidos. Haz clic en una categoría para comenzar tu viaje.',
     'buy_now' => 'Comprar ahora',

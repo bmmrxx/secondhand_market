@@ -38,7 +38,7 @@ return [
     'objects' => 'Objektuak',
     'games' => 'Jokoak',
 
-    // For UI text
+    // For secondary text
     'discover_treasures' => 'Ezkutuko Altxorrak Aurkitu!',
     'explore_unique' => 'Arakatu arropa berezia, objektu harrigarriak eta joko dibertigarriak. Hasi zure bidaia kategoria bat aukeratuz.',
     'buy_now' => 'Erosi orain',
