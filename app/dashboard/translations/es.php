@@ -2,6 +2,7 @@
 
 return [
     'home' => 'Inicio',
+    'about_us' => 'Acerca de nosotros',
     'clothes' => 'Ropa',
     'shoes' => 'Zapatos',
     'tech' => 'Tecnología',
@@ -9,6 +10,7 @@ return [
     'sell' => 'Vender',
     'login' => 'Iniciar sesión / Registrarse',
     'logout' => 'Cerrar sesión',
+    'profile' => 'Perfil',
     'settings' => 'Configuración',
     'staff' => 'Personal',
     'manage_products' => 'Gestionar Productos',

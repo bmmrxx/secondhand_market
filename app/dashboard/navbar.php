@@ -57,7 +57,7 @@ require_once 'header.php';
 
             <?php if (isset($_SESSION['user'])): ?>
                 <li class="nav-item dropdown">
-                    <button class="btn btn-outline-light dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                    <button class="btn btn-outline-dark dropdown-toggle" type="button" data-bs-toggle="dropdown">
                         <i class="fas fa-user"></i>
                     </button>
                     <ul class="dropdown-menu dropdown-menu-end">
@@ -72,7 +72,7 @@ require_once 'header.php';
             <?php endif; ?>
 
             <li class="nav-item dropdown">
-                <button class="btn btn-outline-light dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                <button class="btn btn-outline-dark dropdown-toggle" type="button" data-bs-toggle="dropdown">
                     <img src="<?= htmlspecialchars($currentFlag) ?>" width="20" height="15" class="me-1" alt="<?= strtoupper($lang) ?> Flag">
                     <?= strtoupper($lang) ?>
                 </button>

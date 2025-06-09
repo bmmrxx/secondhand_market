@@ -2,6 +2,7 @@
 
 return [
     'home' => 'Hasiera',
+    'about_us' => 'Honi buruz',
     'clothes' => 'Arropa',
     'shoes' => 'Zapatak',
     'tech' => 'Teknologia',
@@ -10,6 +11,7 @@ return [
     'login' => 'Hasi saioa / Erregistratu',
     'logout' => 'Amaitu saioa',
     'settings' => 'Ezarpenak',
+    'profile' => 'Profila',
     'staff' => 'Langileak',
     'manage_products' => 'Produktuak Kudeatu',
     'name' => 'Izena',

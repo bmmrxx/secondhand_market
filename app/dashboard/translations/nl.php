@@ -1,6 +1,7 @@
 <?php
 return [
     'home' => 'Home',
+    'about_us' => 'Over ons',
     'clothes' => 'Kleding',
     'shoes' => 'Schoenen',
     'tech' => 'Technologie',
@@ -9,6 +10,7 @@ return [
     'login' => 'Inloggen / Registreren',
     'logout' => 'Uitloggen',
     'settings' => 'Instellingen',
+    'profile' => 'Profiel',
     'staff' => 'Personeel',
     'manage_products' => 'Producten Beheren',
     'name' => 'Naam',

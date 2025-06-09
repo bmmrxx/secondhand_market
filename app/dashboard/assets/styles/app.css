@@ -1,12 +1,17 @@
 /* If you want to add your CSS file; @import url('file_name.css'); */
 @import url(header.css);
 @import url(index-detail-pages.css);
+@import url(footer.css);
+@import url(images.css);
+@import url(index.css);
 
 /* CSS for every page (global) */
 body {
-  background-color: #D8DBE2;
+  background-color: #DBD8AE;
   color: rgb(39, 31, 48);
 }
+
+
 
 /* <li class="nav-item">
 <?php
