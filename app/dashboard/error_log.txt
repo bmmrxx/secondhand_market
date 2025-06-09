@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+=======
+SQLSTATE[HY000] [1049] Unknown database 'secondhand_market'SQLSTATE[HY000] [1049] Unknown database 'secondhand_market'SQLSTATE[HY000] [1049] Unknown database 'secondhand_market'SQLSTATE[HY000] [1049] Unknown database 'secondhand_market'SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client [auth_gssapi_client]SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client [auth_gssapi_client]
+>>>>>>> 0ab60871850137004719d39abbeefb33b0010bfa

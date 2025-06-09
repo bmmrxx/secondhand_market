@@ -36,17 +36,17 @@ return [
             'no_products_category' => 'No products found in this category.',
 
             // For main categories
-            'clothes' => 'Clothes', // English example
+            'clothes' => 'Clothes',
             'objects' => 'Objects',
             'games' => 'Games',
 
-            // For UI text
+            // For secondary text
             'discover_treasures' => 'Discover Hidden Treasures!',
             'explore_unique' => 'Explore unique clothing, amazing objects, and fun games. Click a category to start your journey.',
             'buy_now' => 'Buy Now',
             'no_products_category' => 'No products found in this category.',
 
-            // Subcategory names (optional - if you want to translate these too)
+            // Subcategory names
             'footwear' => 'Footwear',
             'bottoms' => 'Bottoms',
             'tops' => 'Tops',

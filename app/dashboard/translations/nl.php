@@ -37,7 +37,7 @@ return [
     'objects' => 'Objecten',
     'games' => 'Spellen',
 
-    // For UI text
+    // For secondary text
     'discover_treasures' => 'Ontdek Verborgen Schatten!',
     'explore_unique' => 'Ontdek unieke kleding, geweldige objecten en leuke spellen. Klik op een categorie om je avontuur te beginnen.',
     'buy_now' => 'Koop nu',
